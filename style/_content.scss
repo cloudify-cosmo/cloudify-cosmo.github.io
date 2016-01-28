@@ -1,0 +1,39 @@
+.container{
+  margin-bottom: 30px;
+
+  #title-text{
+    font-size: 40px;
+  }
+
+  .row{
+    margin-bottom: 0;
+    &.subtitle{
+      margin-top:20px;
+      p{
+        border-bottom: 1px $MAIN_COLOR solid;
+      }
+    }
+    .project{
+      -webkit-transition: 0.2s ease-in-out;
+      -moz-transition: 0.2s ease-in-out;
+      -o-transition: 0.2s ease-in-out;
+      margin-bottom:20px;
+      &:hover{
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
+      }
+      &>a{
+        color: rgba(0, 0, 0, 0.870588);
+      }
+      .card{
+        border-radius: 0px;
+        border-bottom: 2px $MAIN_COLOR solid;
+        .card-content{
+          p{
+            word-break: break-word;
+          }
+        }
+      }
+    }
+  }
+}
