@@ -42,6 +42,8 @@ header {
         border-bottom: 2px #424242 solid; }
         .container .row .project .card .card-content p {
           word-break: break-word; }
+    .container .row.footer {
+      margin-top: 50px; }
 
 @media (min-width: 0px) {
   .project, .card {
