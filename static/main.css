@@ -4,14 +4,11 @@ header {
   header #logo {
     display: inline-flex;
     height: 50px; }
-    header #logo #logo-img {
-      width: 40px;
+    header #logo a {
       height: 40px;
       align-self: center; }
-    header #logo #logo-text {
-      font-size: 24.2px;
-      padding-left: 5px;
-      align-self: center; }
+      header #logo a #logo-img {
+        height: 40px; }
     header #logo #slogan {
       font-size: 20px;
       margin-left: 20px;
