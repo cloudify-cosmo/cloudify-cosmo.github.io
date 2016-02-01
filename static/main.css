@@ -9,6 +9,8 @@ header {
       align-self: center; }
       header #logo a #logo-img {
         height: 40px; }
+      header #logo a:hover {
+        opacity: 0.85; }
     header #logo #slogan {
       font-size: 20px;
       margin-left: 20px;

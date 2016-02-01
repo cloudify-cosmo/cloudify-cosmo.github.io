@@ -10,6 +10,9 @@ header{
       #logo-img{
         height:40px;
       }
+      &:hover{
+        opacity:0.85;
+      }
     }
     #slogan{
       font-size: 20px;
