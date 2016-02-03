@@ -20,6 +20,9 @@ header {
   margin-bottom: 30px; }
   .container #title-text {
     font-size: 40px; }
+  .container #second-title-text {
+    font-size: 18px;
+    font-weight: 300; }
   .container .row {
     margin-bottom: 0; }
     .container .row.subtitle {
