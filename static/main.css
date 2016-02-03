@@ -4,14 +4,13 @@ header {
   header #logo {
     display: inline-flex;
     height: 50px; }
-    header #logo #logo-img {
-      width: 40px;
+    header #logo a {
       height: 40px;
       align-self: center; }
-    header #logo #logo-text {
-      font-size: 24.2px;
-      padding-left: 5px;
-      align-self: center; }
+      header #logo a #logo-img {
+        height: 40px; }
+      header #logo a:hover {
+        opacity: 0.85; }
     header #logo #slogan {
       font-size: 20px;
       margin-left: 20px;
@@ -21,6 +20,9 @@ header {
   margin-bottom: 30px; }
   .container #title-text {
     font-size: 40px; }
+  .container #second-title-text {
+    font-size: 18px;
+    font-weight: 300; }
   .container .row {
     margin-bottom: 0; }
     .container .row.subtitle {
